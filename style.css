@@ -1,0 +1,174 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.logo-area img{
+    float: left;
+    width: 100px;
+    height: auto;
+}
+.navbar ul{
+    list-style: none;
+    float: left;
+}
+.navbar ul li{
+    display: inline-block;
+}
+.navbar ul li a{
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    color: #000;
+    margin-right: 15px;
+}
+.navbar ul li a:hover{
+    background-color: #000;
+    color: #fff;
+}
+.here-me{
+    text-decoration: none;
+    float: right;
+    font-size: 20px;
+    padding: 10px 50px;
+    color: #fff;
+    margin-top: 20px;
+    margin-right: 80px;
+    background-color: red;
+    border-radius: 10px;
+    font-weight: 700;
+}
+/* section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    top: 50%;
+} */
+section{
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 252px;
+    overflow: hidden;
+    padding-bottom: 50px;
+}
+.container{
+    width: 45%;
+    float: left;
+    position: relative;
+    margin: 10px;
+}
+.link-button{
+    text-decoration: none;
+    padding: 10px 40px;
+    color: white;
+    font-weight: 700;
+    background-image: linear-gradient(orange , tomato);
+    border-radius: 10px;
+}
+.container img{
+    width: 80%;
+}
+.wrapper{
+    background-color: cornflowerblue;
+}
+.container h1{
+    font-size: 40px;
+}
+.container p{
+    font-size: 20px;
+}
+
+.text-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.text-header h1{
+    font-size: 40px;
+}
+.hero-image-section{
+    background-color: wheat;
+    padding-bottom: 100px;
+}
+.main-contant{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-left: 30px;
+    margin-right: 15px;
+}
+.main-contant p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+section{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   justify-content: space-evenly;
+   padding-top: 10px;
+}
+section .sub-container{
+    padding: 15px 45px;
+    border: 1px solid orangered;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+section .sub-container h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#contant .sub-container{
+    border-left: 5px solid orangered;
+}
+.container-section{
+    background-color: rgb(209, 194, 194);
+    padding-bottom: 100px;
+}
+.section-contant{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+flexible{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin: 5px 20px;
+}
+flexible .fourth-container h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+flexible .fourth-container{
+    box-shadow: 10px 10px 40px;
+    margin: 15px;
+    padding-left: 15px;
+    padding-right: 5px;
+    border-radius: 10px;
+    padding-bottom: 50px;
+}
+.main-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding-top: 30px;
+    background-color: #f7a73e;
+    padding-bottom: 150px;
+}
